@@ -1,0 +1,269 @@
+body{
+  margin: 0;
+  background-image: url(https://weddingpost.ru/cabinet/constructor/pattern/1163/upl7496.png);
+}
+@font-face {
+  font-family: 'Lighthaus';
+  src: url('/Lighthaus.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'CormorantInfant';
+  src: url('/CormorantInfant-Bold.woff2') format('woff2'),
+}
+@font-face {
+  font-family: 'Daydream';
+  src: url('/Daydream.woff2') format('woff2'),
+}
+.head{
+  background-color: #fff;
+  box-sizing: border-box;
+  // padding: 0 10px 10px;
+  background-image: url(image/82a43dee-5137-4077-aca8-7fdd0efabbd6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 620px;
+  // &__image{
+  //   z-index: -1;
+  //   box-sizing: border-box;
+  //   padding: 10px;
+  //   width: 100%;
+  // }
+  &__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 80%;
+    
+  }
+  &__title{
+    padding: 0;
+    margin: 0;
+    font-family: Lighthaus;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin: auto;
+    &--up{
+      border-bottom: 1px #ffffff solid;
+    }
+  }
+  &__descr{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 8.5pt;
+    letter-spacing: 0.2em;
+    font-family: CormorantInfant;
+    font-weight: 700;
+  }
+  &__data{
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+    align-items: center;
+  }
+}
+.data{
+  &__num{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin: auto;
+    font-size: 22pt;
+    font-family: Lighthaus;
+    font-weight: 400;
+  }
+  &__text{
+    font-family: Daydream;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin: auto;
+  }
+  &__line{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    color: #ffffff;
+  }
+}
+.block{
+  &__title{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    font-family: Lighthaus;
+    padding: 50px 0 0 0;
+    margin-bottom: 10px;
+    font-size: 22pt;
+    font-weight: 400;
+  }
+  &__descr{
+    font-size: 12pt;
+    font-family: CormorantInfant;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  &__address{
+    font-size: 12pt;
+    font-family: CormorantInfant;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 5px;
+  }
+  &__image{
+    display: block;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    border: 5px solid #fff;
+    margin-bottom: 5px;
+  }
+  &__desc{
+    font-size: 13pt;
+    font-family: Lighthaus;
+    text-align: center;
+    line-height: 1.25em;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  &__icon{
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+    margin-bottom: 5px;
+  }
+  &__groom{
+    font-size: 13pt;
+    font-family: Lighthaus;
+    text-align: center;
+    line-height: 1.25em;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+.features{
+  &__title{
+    margin: auto;
+    font-size: 16pt;
+    font-family: Lighthaus;
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 75%;
+    margin-bottom: 5px;
+  }
+  &__descr{
+    font-size: 11pt;
+    text-align: center;
+    font-family: CormorantInfant;
+    color: #000;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  &__desc{
+    font-size: 11pt;
+    text-align: center;
+    font-family: CormorantInfant;
+    color: #000;
+    width: 70%;
+    margin: 25px auto 15px;
+  }
+  &__colors{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  &__color{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid rgb(153, 153, 153);
+    &--white{
+      background-color: #fff;
+    }
+    &--milk{
+      background-color: #FDFFF5;
+    }
+    &--baige{
+      background-color: #f5f5dc;
+    }
+    &--brown{
+      background-color: #964b00;
+    }
+    &--pistachio{
+      background-color: #bef574;
+    }
+  }
+  &__link{
+    display: block;
+    color: #000;
+    font-size: 11pt;
+    text-align: center;
+    font-family: CormorantInfant;
+    margin: auto;
+    padding: 25px 25px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: fit-content;
+    margin-bottom: 25px;
+  }
+  
+}
+.timing{
+  border: 5px solid #fff;
+  border-radius: 15px;
+  &__title{
+    font-size: 16pt;
+    font-family: Lighthaus;
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+    margin: 25px auto 25px;
+  }
+  &__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  &__up{
+    display: flex;
+    gap: 25px;
+  }
+  &__down{
+    display: flex;
+    gap: 65px;
+  }
+  &__time{
+    margin: 0;
+    font-size: 14pt;
+    text-align: left;
+    font-family: CormorantInfant;
+  }
+  &__subtitle{
+    margin: 0;
+    font-size: 14pt;
+    text-align: left;
+    font-family: CormorantInfant;
+  }
+  &__location{
+    margin: 0;
+    font-size: 12pt;
+    text-align: left;
+    font-family: CormorantInfant;
+  }
+}

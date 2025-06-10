@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  background-image: url(https://weddingpost.ru/cabinet/constructor/pattern/1163/upl7496.png);
+}
+
+@font-face {
+  font-family: "Lighthaus";
+  src: url("/Lighthaus.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CormorantInfant";
+  src: url("/CormorantInfant-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Daydream";
+  src: url("/Daydream.woff2") format("woff2");
+}
+.head {
+  background-color: #fff;
+  box-sizing: border-box;
+  background-image: url(image/82a43dee-5137-4077-aca8-7fdd0efabbd6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 620px;
+}
+.head__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 80%;
+}
+.head__title {
+  padding: 0;
+  margin: 0;
+  font-family: Lighthaus;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30pt;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin: auto;
+}
+.head__title--up {
+  border-bottom: 1px #ffffff solid;
+}
+.head__descr {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8.5pt;
+  letter-spacing: 0.2em;
+  font-family: CormorantInfant;
+  font-weight: 700;
+}
+.head__data {
+  display: flex;
+  margin: auto;
+  padding-top: 5%;
+  align-items: center;
+}
+
+.data__num {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  margin: auto;
+  font-size: 22pt;
+  font-family: Lighthaus;
+  font-weight: 400;
+}
+.data__text {
+  font-family: Daydream;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  margin: auto;
+}
+.data__line {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  color: #ffffff;
+}
+
+.block__title {
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  font-family: Lighthaus;
+  padding: 50px 0 0 0;
+  margin-bottom: 10px;
+  font-size: 22pt;
+  font-weight: 400;
+}
+.block__descr {
+  font-size: 12pt;
+  font-family: CormorantInfant;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.block__address {
+  font-size: 12pt;
+  font-family: CormorantInfant;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  margin-bottom: 5px;
+}
+.block__image {
+  display: block;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  border: 5px solid #fff;
+  margin-bottom: 5px;
+}
+.block__desc {
+  font-size: 13pt;
+  font-family: Lighthaus;
+  text-align: center;
+  line-height: 1.25em;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.block__icon {
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #fff;
+  margin-bottom: 5px;
+}
+.block__groom {
+  font-size: 13pt;
+  font-family: Lighthaus;
+  text-align: center;
+  line-height: 1.25em;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.features__title {
+  margin: auto;
+  font-size: 16pt;
+  font-family: Lighthaus;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 75%;
+  margin-bottom: 5px;
+}
+.features__descr {
+  font-size: 11pt;
+  text-align: center;
+  font-family: CormorantInfant;
+  color: #000;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.features__desc {
+  font-size: 11pt;
+  text-align: center;
+  font-family: CormorantInfant;
+  color: #000;
+  width: 70%;
+  margin: 25px auto 15px;
+}
+.features__colors {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.features__color {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid rgb(153, 153, 153);
+}
+.features__color--white {
+  background-color: #fff;
+}
+.features__color--milk {
+  background-color: #FDFFF5;
+}
+.features__color--baige {
+  background-color: #f5f5dc;
+}
+.features__color--brown {
+  background-color: #964b00;
+}
+.features__color--pistachio {
+  background-color: #bef574;
+}
+.features__link {
+  display: block;
+  color: #000;
+  font-size: 11pt;
+  text-align: center;
+  font-family: CormorantInfant;
+  margin: auto;
+  padding: 25px 25px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.timing {
+  border: 5px solid #fff;
+  border-radius: 15px;
+}
+.timing__title {
+  font-size: 16pt;
+  font-family: Lighthaus;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  margin: 25px auto 25px;
+}
+.timing__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.timing__up {
+  display: flex;
+  gap: 25px;
+}
+.timing__down {
+  display: flex;
+  gap: 65px;
+}
+.timing__time {
+  margin: 0;
+  font-size: 14pt;
+  text-align: left;
+  font-family: CormorantInfant;
+}
+.timing__subtitle {
+  margin: 0;
+  font-size: 14pt;
+  text-align: left;
+  font-family: CormorantInfant;
+}
+.timing__location {
+  margin: 0;
+  font-size: 12pt;
+  text-align: left;
+  font-family: CormorantInfant;
+}/*# sourceMappingURL=style.css.map */
